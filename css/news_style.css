@@ -29,6 +29,7 @@ h1 {
 .news_box{
     margin: 20px 0;
     height: 60vh;
+    width: 30vw;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -40,6 +41,7 @@ h1 {
 
 .post_text{
     height: 30vh;
+    width: 100%
     padding: 20px 3%;
     border-radius: 20px 20px 0 0;
     background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
