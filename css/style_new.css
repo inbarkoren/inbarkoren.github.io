@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@font-face {
+    font-family: "Aventine";
+    src: url("fonts/Aventine.otf") format("OpenType");
+}
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li,a,p{
+    font-family: "Poppins",sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 5%;
+    height: 30px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+
+.nav_links a{
+    padding: 5px;
+    color:#edf0f1;
+    border-radius: 10px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.nav_links a:hover{
+    color:#24252a;
+    background-color:#edf0f1;
+}
+
+.nav_links{
+    list-style: none;
+}
+
+.nav_links li{
+    display: inline-block;
+    margin: 0px 20 px;
+    padding: 0px 20px;
+}
+
+
+.logo_container{
+    display: flex;
+    align-items: center;
+}
+
+.logo_container a{
+    font-family: 'Aventine', sans-serif; font-weight: 400;
+    padding: 5px;
+    color: #edf0f1;
+}
+
+.logo{
+    cursor: pointer;
+    height: 25px;
+    width: auto;
+}
+
+
+footer{
+    padding: 3%;
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    background-color: white;
+}
+
+footer ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+footer p,a{
+    color: black;
+}
+
+footer a:hover{
+    color: cadetblue;
+}
+
+.rating_images img{
+    height: 75px;
+    width: auto;
+}
+
+h1{
+    font-family: "Aventine", sans-serif;
+    font-weight: 400;
+    font-size: 100px;
+
+}
+
+h2{
+    font-family: "Aventine", sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+}
+
+
+button{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    background-color: #24252a;
+    color: #edf0f1;
+    border-color: transparent;
+    border-radius: 30px;
+    padding: 1%;
+}
+
+button:hover {
+    background-color: #edf0f1;
+    color: #24252a;
+    border-color: transparent;
+}
+
