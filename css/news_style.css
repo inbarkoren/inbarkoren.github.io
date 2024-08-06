@@ -29,7 +29,7 @@ h1 {
 .news_box{
     margin: 20px 0;
     height: 60vh;
-    width: 30vw;
+    width: 50vw;
     background-size: cover;
     display: flex;
     flex-direction: column;
