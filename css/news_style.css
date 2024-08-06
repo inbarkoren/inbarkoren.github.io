@@ -40,6 +40,7 @@ h1 {
 
 .post_text{
     height: 30vh;
+    width: 30vw;
     padding: 20px 3%;
     border-radius: 20px 20px 0 0;
     background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
